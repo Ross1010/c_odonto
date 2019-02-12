@@ -17,7 +17,9 @@
         <div class="card card-signin my-5" style=" width:400px; height: 400px; background-color: rgba(8, 0, 0, 0.18); margin:auto; margin-top:150px; text-align: center; font-family: sans-serif">
             <div class="card-body">
             <h5 class="card-title ">Crea tu cuenta</h5>
-            <form class="form-signin">
+            <form action="./class/usuario.php" class="form-signin" method="POST">
+                <input type='hidden' name='accion' value="2">
+
                 <div class="">
                     <input type="text" class="form-control placeholder" placeholder="Cree su nombre de usuario" required>
                 </div>

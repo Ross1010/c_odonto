@@ -17,7 +17,9 @@
         <div class="card card-signin my-5" style=" width:400px; height: 400px; background-color: rgba(8, 0, 0, 0.18); margin:auto; margin-top:150px; text-align: center; font-family: sans-serif">
             <div class="card-body">
             <h5 class="card-title ">Iniciar Sesión</h5>
-            <form class="form-signin">
+            <form action="./class/usuario.php" class="form-signin" method="POST">
+                <input type='hidden' name='accion' value="1">
+
                 <div>
                     <input type="text" class="form-control placeholder" placeholder="Ingrese su nombre de usuario" required>
                 </div>
