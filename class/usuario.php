@@ -13,7 +13,7 @@
 		$con->setUsuario($usuario);
 		$con->setContrasena($contrasenia);
 
-		$validar = $con->cantidadRegistros("select * from usuario where usuario = '$usuario' and contrasenia = '$contrasenia'");
+		$validar = $con->cantidadRegistros("select * from empleado where usuario = '$usuario' and contrasena = '$contrasenia'");
 
 		if($validar>0){
 			$_SESSION['usuario'] = $usuario;
@@ -24,7 +24,7 @@
 		}
 	}
 	else{
-		$registrar = $con->ejecutarInstruccion("insert into usuario(usuario, contrasenia, correo) values('$usuario', '$contrasenia', '$correo')");
+		$registrar = $con->ejecutarInstruccion("insert into empleado(usuario, contrasena) values('$usuario', '$contrasenia')");
 		header('Location: ./log-in.html');
 	}
 ?>
