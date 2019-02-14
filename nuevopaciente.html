@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nuevo Paciente</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/nuevopaciente.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      
+
+      <div class="form">
+          <div class="card card-signin my-5" style=" width:85%; height: 80%; background-color: rgba(8, 0, 0, 0.18); margin:auto; margin-top:150px; text-align: center; font-family: sans-serif;padding: 10px 20px">
+          <form class="needs-validation" novalidate>
+              <legend>Formulario para nuevo paciente</legend>
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="validationCustom01">Primer Nombre</label>
+                  <input type="text" class="form-control" id="validationCustom01" placeholder="Primer Nombre" required>
+                  <div class="invalid-feedback">
+                      Por favor ingrese un nombre valido.
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="validationCustom02">Segundo Nombre</label>
+                  <input type="text" class="form-control" id="validationCustom02" placeholder="Segundo Nombre">
+                  <div class="valid-feedback">
+                    Valido!
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="validationCustom01">Primer Apellido</label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="Primer Apellido" required>
+                    <div class="invalid-feedback">
+                        Por favor ingrese un apellido valido.
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                      <label for="validationCustom01">Segundo Apellido</label>
+                      <input type="text" class="form-control" id="validationCustom01" placeholder="Segundo Apellido" >
+                      <div class="invalid-feedback">
+                          Por favor ingrese un apellido valido.
+                      </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationCustom01">Fecha nacimiento</label>
+                        <input type="date" class="form-control placeholder" id="validationCustom01" placeholder="Segundo Apellido" required>
+                        <div class="invalid-feedback">
+                            Por favor ingrese una fecha valida.
+                        </div>
+                      </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="validationCustom01">Numero de identidad</label>
+                            <input type="text" class="form-control " id="validationCustom03" placeholder="Numero de identidad" required>
+                            <div class="invalid-feedback">
+                                Por favor ingrese un numero de identidad valido.
+                            </div>
+                      </div>
+                      <div class="col-md-5 mb-3">
+                          <label for="validationCustom01">Correo electronico</label>
+                          <input type="email" class="form-control " id="validationCustom05" placeholder="ejemplo@algo.com">
+                          <div class="invalid-feedback">
+                              Por favor ingrese un numero de identidad valido.
+                          </div>
+                    </div>
+
+              </div>
+              <div class="form-row">
+                <div class="col-md-2 mb-3">
+                  <label for="validationCustom03">Telefono</label>
+                  <input type="text" class="form-control" id="validationCustom03" placeholder="2222-2222" required>
+                  <div class="invalid-feedback">
+                    Por favor ingrese telefono valido.
+                  </div>
+                </div>
+                
+                <div class="col-md-2 mb-3">
+                    <div class="form-group">
+                        <label for="sel1">Estado Civil</label>
+                        <select class="form-control" id="sel1">
+                          <option>Soltero(a)</option>
+                          <option>Casado(a)</option>
+                          <option>Viudo(a)</option>
+                        </select>
+                      </div>
+                </div>
+                <div class="col-md-8 mb-3">
+                  <label for="validationCustom05">Dirección</label>
+                  <input type="text" class="form-control" id="validationCustom05" placeholder="Colonia, barrio.." required>
+                  <div class="invalid-feedback">
+                    Por favor ingrese dirección valida.
+                  </div>
+                </div>
+
+                
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    Nuevo paciente confirma información.
+                  </label>
+                  <div class="invalid-feedback">
+                    El paciente debe confirmar la información.
+                  </div>
+                </div>
+              </div>
+              <fieldset>
+                  
+                </fieldset>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalCenter">
+                 Salir
+  </button>
+
+  <button class="btn btn-primary" type="submit">Guardar</button>
+            </form>
+          </div>
+      </div>
+      
+
+       
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Guardar</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Realmente desea salir?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+          <button type="button" class="btn btn-primary">Si</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+      </script>
+
+</body>
+</html>
