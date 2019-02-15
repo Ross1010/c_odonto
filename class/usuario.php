@@ -1,7 +1,7 @@
 <?php 
 	require_once('class-conexion.php');
 	$con = new Conexion();
-
+	$con->ejecutarInstruccion("SET NAMES 'utf8'");
 	session_start();
 
 	$usuario = $_POST['usu'];

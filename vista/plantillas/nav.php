@@ -2,7 +2,7 @@
 	<div class="widget">
 		<?php require_once('./class/class-conexion.php');
 	 	  $con = new Conexion();
-
+	 	  $con->ejecutarInstruccion("SET NAMES 'utf8'");
 	 	  $rs = $con->ejecutarInstruccion("select * from categoria;");
 
 	 	  while($cat = mysqli_fetch_array($rs)){?>
