@@ -6,7 +6,7 @@
 					<div class="mensaje">
 						<h2>USUARIOS</h2>
 					</div>
-					<a class="agregar" href="">Agregar Usuarios</a>
+					<a class="agregar" href="">Agregar Usuario</a>
 						<table class="tabla">
 						  <tr>
 							<th>Nombres</th>
