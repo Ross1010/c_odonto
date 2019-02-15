@@ -34,7 +34,7 @@
 	else{
 		$fk = $con->ejecutarInstruccion("set foreign_key_checks = 0;"); // Las tablas estan relacionadas esta linea es provicional para hacer la prueba de registro
 
-		$rs = $con->ejecutarInstruccion("insert into usuario(idusuario, usuario, contrasenia, idempleado) values(1, 'admin', 'admin', '1');");
+		$rs = $con->ejecutarInstruccion("insert into usuario(usuario, contrasenia) values('$usuario', '$contrasenia')");
 
 		header('Location: ../log-in.html');
 	}
