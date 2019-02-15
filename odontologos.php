@@ -1,7 +1,7 @@
 <?php session_start();
-if(isset($_SESSION['usuario'])){
+//if(isset($_SESSION['usuario'])){
 	require 'vista/odontologos_vista.php';
-}else{
-	header('Location: login.php');
-}
+//}else{
+	header('Location: ');
+//}
 ?>
