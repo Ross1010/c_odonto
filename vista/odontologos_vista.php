@@ -6,7 +6,7 @@
 					<div class="mensaje">
 						<h2>ODONTÓLOGOS</h2>
 					</div>
-						<a class="agregar" href="">Agregar Odontólogo</a>
+						<a class="agregar" href="agregar-odontologo.html">Agregar Odontólogo</a>
 						
 						<table class="tabla">
 						  <tr>
