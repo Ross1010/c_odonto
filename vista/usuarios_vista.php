@@ -6,7 +6,7 @@
 					<div class="mensaje">
 						<h2>USUARIOS</h2>
 					</div>
-					<a class="agregar" href="registrarusuarios.php">Agregar Usuarios</a>
+					<a class="agregar" href="">Agregar Usuarios</a>
 						<table class="tabla">
 						  <tr>
 							<th>Nombres</th>

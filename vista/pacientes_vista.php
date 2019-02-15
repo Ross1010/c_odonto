@@ -7,7 +7,7 @@
 					<div class="mensaje">
 						<h2>PACIENTES</h2>
 					</div>
-					<a class="agregar" href="agregarpacientes.php">Agregar Paciente</a>
+					<a class="agregar" href="">Agregar Paciente</a>
 					<table class="tabla">
 						  <tr>
 							<th>Identificación</th>
