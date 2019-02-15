@@ -3,7 +3,7 @@
 	class Conexion{
 
 		private $usuario="root";
-		private $contrasena="";
+		private $contrasena="root0101";
 		private $host="localhost";
 		private $baseDatos="db_clinica";
 		private $puerto="3306";
@@ -34,10 +34,6 @@
 
 		public function ejecutarMultiple($sql){
 			return mysqli_multi_query($this->link, $sql);
-		}
-
-		public function obtenerFila($resultado){
-			return mysqli_fetch_array($resultado);
 		}
 
 		public function cantidadRegistros($resultado){
