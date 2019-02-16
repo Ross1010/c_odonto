@@ -18,6 +18,14 @@
                         <input type="text" placeholder="Ingrese su segundo apellido"><br><br>
                         Número de empleado
                         <input type="text" placeholder="Ingrese su número de empleado"><br><br>
+                        Cargo
+                        <select id="servicio">
+                        <option value="-">Seleccione un cargo</option>
+                        <option value="1">opcion1</option>
+                        <option value="2">opcion2</option>
+                        <option value="3">opcion3</option>
+                        <option value="4">etc</option>
+                        </select><br><br>
                         Fecha Nacimiento
                         <input type="date"><br><br>
                         Correo
