@@ -7,7 +7,7 @@
 					<div class="mensaje">
 						<h2>CITAS</h2>
 					</div>
-					<a class="agregar" href="">Agregar Cita</a>
+					<a class="agregar" href="agregar-cita.php">Agregar Cita</a>
 					<table class="tabla">
 						  <tr>
 							<th>#</th>
